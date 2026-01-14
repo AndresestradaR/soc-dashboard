@@ -34,9 +34,13 @@
       </div>
       
       <nav class="flex-1 p-4 space-y-2">
-        <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[#242424] text-white">
+        <a href="index.html" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[#242424] text-white">
           <i data-lucide="layout-dashboard" class="w-5 h-5"></i>
           Dashboard
+        </a>
+        <a href="channels.html" class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-400 hover:bg-[#1a1a1a] hover:text-white transition">
+          <i data-lucide="plug" class="w-5 h-5"></i>
+          Canales
         </a>
         <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-400 hover:bg-[#1a1a1a] hover:text-ml transition">
           <i data-lucide="shopping-bag" class="w-5 h-5 text-ml"></i>
@@ -207,7 +211,7 @@
   </div>
   
   <script>
-    const API_BASE = 'https://mercado-libre-production-b0cc.up.railway.app/api/v1';
+    const API_BASE = 'https://soc-hub.up.railway.app/api/v1';
     const CHANNEL_ID = 1;
     let salesChart = null;
     let statusChart = null;
